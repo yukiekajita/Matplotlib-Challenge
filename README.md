@@ -17,7 +17,7 @@ My tasks were to do the following:
 
 ** Summary Table
 
-![table](Readme_Images/table.png])
+![table](Readme_Images/table.png)
 
 
 
@@ -26,7 +26,7 @@ My tasks were to do the following:
 
 ** Bar plot
 
-![bar_graph_1](Readme_Images/bar_graph_1.png])
+![bar_graph_1](Readme_Images/bar_graph_1.png)
 
 
 * Generated a pie plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that showed the distribution of female or male mice in the study.
@@ -34,7 +34,7 @@ My tasks were to do the following:
 
 ** Pie plot
 
-![pie_graph](Readme_Images/pie_graph.png])
+![pie_graph](Readme_Images/pie_graph.png)
 
 
 * Calculated the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Calculated the quartiles and IQR and quantitatively determined if there were any potential outliers across all four treatment regimens.
@@ -44,7 +44,7 @@ My tasks were to do the following:
 
 ** box and whisker plot
 
-![boxplot](Readme_Images/boxplot.png])
+![boxplot](Readme_Images/boxplot.png)
 
 
 * Selected a mouse that was treated with Capomulin and generated a line plot of time point versus tumor volume for that mouse.
@@ -52,7 +52,7 @@ My tasks were to do the following:
 
 ** Time series graph
 
-![time_series](Readme_Images/time_series.png])
+![time_series](Readme_Images/time_series.png)
 
 
 * Generated a scatter plot of mouse weight versus average tumor volume for the Capomulin treatment regimen.
@@ -62,7 +62,7 @@ My tasks were to do the following:
 
 ** Correlation and Regression Analyses
 
-![regression](Readme_Images/regression.png])
+![regression](Readme_Images/regression.png)
 
 
 ### Summary
