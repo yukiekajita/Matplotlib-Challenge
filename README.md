@@ -1,16 +1,16 @@
-# Matplotlib-Project
+# Skin Cancer Drug Test Analyses with Pandas and Matplotlib
 
-* I was given access to an animal study for cancer treatments. In this study, 249 mice identified with SCC tumor growth were treated through a variety of drug regimens. Over the course of 45 days, tumor development was observed and measured. The purpose of this study was to compare the performance of Pymaceuticals' drug of interest, Capomulin, versus the other treatment regimens. I generated all of the tables and figures needed for the technical report of the study. 
+* I was given an access to an animal study with cancer treatments. In this study, 249 mice identified with SCC tumor growth were treated through a variety of drug regimens. Over the course of 45 days, tumor development was observed and measured. The purpose of this study was to compare the performance of a drug, Capomulin, versus the other treatment regimens. I generated all of the tables and figures needed for the technical report of the study. 
 
 ## Instructions
 
 My tasks were to do the following:
 
-* Before beginning the analysis, checked the data for any mouse ID with duplicated time points and removed any data associated with that mouse ID.
+* Before beginning the analysis, I checked the data for any mouse ID with duplicated time points and I removed any data associated with that mouse ID.
 
-* Used the cleaned data for the remaining steps.
+* I used the cleaned data for the remaining steps.
 
-* Generated a summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen.
+* I generated a summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen.
 
 
 ** Summary Table
@@ -19,7 +19,7 @@ My tasks were to do the following:
 
 
 
-* Generated a bar plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that showed the number of total mice for each treatment regimen throughout the course of the study.
+* I generated a bar plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that showed the number of total mice for each treatment regimen throughout the course of the study.
 
 
 ** Bar plot
@@ -27,7 +27,7 @@ My tasks were to do the following:
 ![bar_graph_1](Readme_Images/bar_graph_1.png)
 
 
-* Generated a pie plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that showed the distribution of female or male mice in the study.
+* I generated a pie plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that showed the distribution of female or male mice in the study.
 
 
 ** Pie plot
@@ -35,7 +35,7 @@ My tasks were to do the following:
 ![pie_graph](Readme_Images/pie_graph.png)
 
 
-* Calculated the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Calculated the quartiles and IQR and quantitatively determined if there were any potential outliers across all four treatment regimens.
+* I calculated the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. I calculated the quartiles and IQR and quantitatively determined if there were any potential outliers across all four treatment regimens.
 
 * Using Matplotlib, generated a box and whisker plot of the final tumor volume for all four treatment regimens and highlighted any potential outliers in the plot by changing their color and style.
 
@@ -68,9 +68,9 @@ My tasks were to do the following:
 
 * The total number of mice used for each drug treatment showed that the numbers of samples with Capomulin and Ramicane treaments (230 mice for Capomulin and 228 mice for Ramicane) were larger than the sample numbers in the other drug treatments (less than 200 mice). The result might suggest that mice with Capomulin and Ramicane treaments survived better through the 45 days experimental trial compared with mice with the other drug regimens; therefore, there were more samples available in Capomulin and Ramicane treaments for data analyses. 
 
-* The comparison of the final tumor volume of each mice among the drug treatments of Capomulin, Ramicane, Infubinol, and Ceftamin, showed that the tumor volume in the treatment of Capomulin and Ramicane was much smaller than the tumor volume in the treatment of Infubinol and Ceftamin. However, Infubinol treatment had an outlier value. Therefore, we may need to consider the outlier value carefully whether we need to remove it or not, for the analyses. 
+* The comparison of the final tumor volume of each mice among the drug treatments of Capomulin, Ramicane, Infubinol, and Ceftamin, showed that the tumor volume in the treatment of Capomulin and Ramicane was much smaller than the tumor volume in the treatment of Infubinol and Ceftamin. However, Infubinol treatment data contained an outlier value. We might need to consider the outlier value carefully whether we need to remove it or not, in the future analyses. 
 
 * The graph of the tumor volume in the 45 days experimental trial with the Capomulin treatment showed that the tumor volume decreased through the experimental days. The result might suggest the beneficial use of Capomulin for the skin cancer treatment. 
 
-* There was a significant correlation between mice weight and tumor volume in the Capomulin treatment (Pearson's R=0.84). In addition, there was a positive relationship between mice weight and the average tumor volume of each mice ID in the Capomuline treatment. The lager mice had larger tumor volume comapred with the small mice. The result suggested that mice weight was an important variable (i.e., covariate) to understant the effect of Campomulin on the tumor volume. Therefore, further analyses would be needed (i.e., Analyses of Covariate (ANCOVA)) to consider the effect of the sample body weight on the tumor volume. 
+* There was a significant correlation between mice weight and tumor volume in the Capomulin treatment (Pearson's R = 0.84). In addition, there was a positive relationship between mice weight and the average tumor volume of each mice ID in the Capomuline treatment. The larger mice had larger tumor volume compared with the small mice. The result suggested that mice weight was an important variable (i.e., covariate) to understant the effect of Campomulin on the tumor volume. Therefore, further analyses would be needed (i.e., Analyses of Covariate (ANCOVA)) to consider the effect of the sample body weight on the tumor volume. 
 
