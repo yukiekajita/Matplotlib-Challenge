@@ -4,8 +4,6 @@
 
 ## Instructions
 
-My tasks were to do the following:
-
 * Before beginning the analysis, I checked the data for any mouse ID with duplicated time points and I removed any data associated with that mouse ID.
 
 * I used the cleaned data for the remaining steps.
